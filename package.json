@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Allows querying a subset of registered liquid assets",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }, 
   "dependencies": {
     "fastify": "^4.10.2",
     "got": "^12.5.3",
@@ -17,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/asoltys/liquid-registry/issues"
   },
-  "homepage": "https://github.com/asoltys/liquid-registry#readme"
+  "homepage": "https://github.com/asoltys/liquid-registry#readme",
+  "type": "module"
 }

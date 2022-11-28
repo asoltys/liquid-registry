@@ -2,7 +2,7 @@ import fastify from "fastify";
 import got from "got";
 
 const app = fastify();
-const { HOST: host = "localhost", PORT: port = 6000 } = process.env;
+const { HOST: host = "0.0.0.0", PORT: port = 6000 } = process.env;
 const interval = 60 * 1000;
 
 app.listen({ host, port }, (err, address) => {
