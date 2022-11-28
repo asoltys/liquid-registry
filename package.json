@@ -1,10 +1,21 @@
 {
-	"dependencies": {
-		"fastify": "^4.10.2",
-		"got": "^12.5.3"
-	},
-	"type": "module",
-	"devDependencies": {
-		"prettier": "^2.8.0"
-	}
+  "name": "liquid-registry",
+  "version": "1.0.0",
+  "description": "Allows querying a subset of registered liquid assets",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^4.10.2",
+    "got": "^12.5.3",
+    "prettier": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asoltys/liquid-registry.git"
+  },
+  "author": "Adam Soltys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asoltys/liquid-registry/issues"
+  },
+  "homepage": "https://github.com/asoltys/liquid-registry#readme"
 }
